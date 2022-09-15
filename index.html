@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" placeholder="Voornaam">
+            <input type="text" placeholder="Achternaam">
+            <br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Man</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Vrouw</label><br> 
+            <br>
+            <input type="text" placeholder="Straat met huisnummer">
+            <input type="text" placeholder="Postcode">
+            <input type="text" placeholder="Stad">
+            <input type="text" placeholder="BSN">
+            <br>
+            <label for="dropdown">Land</label>
+            <select name="dropdown" id="dropdown">
+                <option value="dropdown">NL</option>
+                <option value="dropdown">US</option>
+                <option value="dropdown">DE</option>
+                <option value="dropdown">BE</option>
+            </select>
+
+            <label for="dropdown">Vakantieland</label>
+            <select name="dropdown" id="dropdown">
+                <option value="dropdown">NL</option>
+                <option value="dropdown">US</option>
+                <option value="dropdown">DE</option>
+                <option value="dropdown">BE</option>
+            </select>
+            <br>
+            <label for="Datumv">Datum van vertrek</label>
+            <input type="date" name="Datumv" id="Datumv">
+            <label for="Datumt">Datum van terugkomst</label>
+            <input type="date" name="Datumt" id="Datumt">
+            <br>
+            <label for="ar">Aantal Reisgenoten</label>
+            <input type="number" name="ar" id="ar" max="4">
+        </form>
+        <br>
+        <button type="submit" name="submit" class="submit">Boek nu!!</button>
+    </div>
+    <br>
+    <div>
+        <form action="Login">
+            <input type="email" class="email" placeholder="Email">
+            <br>
+            <input type="password" placeholder="Wachtwoord">
+        </form>
+        <br>
+        <button type="submit" name="submit" class="submit">Login</button>
+    </div>
+    
+</body>
+</html>
